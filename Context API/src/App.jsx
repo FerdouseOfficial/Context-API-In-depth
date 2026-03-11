@@ -1,10 +1,11 @@
 import React from 'react'
+import UserContextProvider from './context/UserContextProvider'
 
 const App = () => {
   return (
-    <div>
-      
-    </div>
+    <UserContextProvider>
+      <h1>React with Chai and share is important</h1>
+    </UserContextProvider>
   )
 }
 
